@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coba</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="operasi">
+                <input type="text" id="operasi-backend" value="">
+            </div>
+            <div class="operasi">
+                <input type="text" id="operasi" value="">
+            </div>
+            <div class="hasil">
+                <input type="text" id="hasil" value="">
+            </div>
+            <div class="kalkulator">
+                <input class="op1" type="reset" value="C">
+                <input class="op1" type="button" value="%" onclick="persen()">
+                <input class="op1" type="button" value="D" onclick="del()">
+                <input class="op" type="button" value="&divide;" onclick="bagi()">
+                <input class="nmbr" type="button" value="7" onclick="btn(7)">
+                <input class="nmbr" type="button" value="8" onclick="btn(8)">
+                <input class="nmbr" type="button" value="9" onclick="btn(9)">
+                <input class="op" type="button" value="&times;" onclick="kali()">
+                <input class="nmbr" type="button" value="4" onclick="btn(4)">
+                <input class="nmbr" type="button" value="5" onclick="btn(5)">
+                <input class="nmbr" type="button" value="6" onclick="btn(6)">
+                <input class="op" type="button" value="&minus;" onclick="kurang()">
+                <input class="nmbr" type="button" value="1" onclick="btn(1)">
+                <input class="nmbr" type="button" value="2" onclick="btn(2)">
+                <input class="nmbr" type="button" value="3" onclick="btn(3)">
+                <input class="op" type="button" value="+" onclick="tambah()">
+                <input class="nmbr" type="button" value="00" onclick="duanol()">
+                <input class="nmbr" type="button" value="0" onclick="btn(0)">
+                <input class="nmbr" type="button" value="," onclick="koma()">
+                <input class="op" type="button" value="=" onclick="samadengan()">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 - M.Rendi Alamsyah</p>
+    </footer>
+</body>
+
+</html>
